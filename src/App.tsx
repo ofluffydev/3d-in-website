@@ -17,7 +17,7 @@ scene.add(directionalLight);
 let car: THREE.Group | null = null;
 
 loader.load(
-    'porsche.glb',
+    'Carro5.glb',
     function (gltf: { scene: THREE.Group<THREE.Object3DEventMap> | null; }) {
         car = gltf.scene;
         if (car) {
